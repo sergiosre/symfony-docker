@@ -17,5 +17,13 @@ mysql -> MySQL database
 # Installation
 
 ```
-1 - docker-compose up -d --build
+docker-compose up -d --build
+```
+
+If all is correct you will see in your terminal:
+
+```
+Starting symfony-docker_nginx_1 ... done
+Starting symfony-docker_php_1   ... done
+Starting symfony-docker_mysql_1 ... done
 ```
